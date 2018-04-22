@@ -76,7 +76,7 @@ label{
 }
 .title{
   position:absolute;
-  left:calc(50% - 230px);
+  left:calc(20%);
   top:25px;
   font-size:75px;
   color:maroon;
@@ -104,4 +104,16 @@ h6{
   font-size:30px;
   left:15px;
   top:20%;
+}
+.ods{
+  position:absolute;
+  top:-14%;
+  left:calc(50% - 200px);
+  font-size: 20px;
+}
+.pdf{
+  position:absolute;
+  top:-14%;
+  left:calc(70%);
+  font-size: 20px;
 }
