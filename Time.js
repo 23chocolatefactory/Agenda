@@ -5,7 +5,7 @@ let usedTime =  Number(homework.value) + Number(extraTime.value);
 let submit = document.querySelector('.submit');
 let x = 600 ;
 submit.addEventListener('click',getAgenda)
-
+console.log(x);
 function getAgenda(){
   let isVacation = document.querySelector('.radioyes');
   let homework = document.querySelector('.homework');
@@ -87,6 +87,7 @@ function getAgenda(){
     }
   }
   function ManyFunctions(){
+    x = 200;
     let p = document.querySelectorAll('p');
     for (i=0;i<=p.length;i++){
       if (p[i] == undefined){
@@ -94,9 +95,9 @@ function getAgenda(){
       }else{
       let num = (p[i].style.top).split("p");
       p[i].style.top = (Number(num[0])+150)+'px'
+      console.log('yes?');
     }
     }
-    x = 200;
     p = document.createElement('p');
     let txt = document.createTextNode('-----------------');
     p.appendChild(txt);
@@ -117,6 +118,18 @@ function getAgenda(){
     x += 20
     WriteOut(gaming,'Gaming');
     x += 20
+    p = document.querySelectorAll('p');
+    let nodes = [].slice.call(p);
+    for (i=0;i<=p.length;i++){
+      if (p[i] == undefined){
+
+      }else{
+        if (nodes.length > 21){
+          nodes[0].remove()
+          nodes.shift()
+        }
+    }
+    }
   }
 
   function WriteOut(WhatToWrite,Name){
