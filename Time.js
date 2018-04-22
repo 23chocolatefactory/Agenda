@@ -34,10 +34,10 @@ function getAgenda(){
 
   } else{
     switch (day){
-    case 0:
-    case 2:
+    case 1:
     case 3:
     case 4:
+    case 5:
       total = 200;
       exercising = 0;
       lot = (total - (usedTime + exercising));
@@ -49,7 +49,7 @@ function getAgenda(){
       ManyFunctions()
       break;
 
-    case 1:
+    case 2:
       total = 140;
       exercising = 0;
       lot = (total - (usedTime + exercising));
@@ -61,7 +61,7 @@ function getAgenda(){
       ManyFunctions()
       break;
 
-    case 5:
+    case 6:
       total = 450;
       exercising = 30;
       lot = (total - (usedTime + exercising));
@@ -73,7 +73,7 @@ function getAgenda(){
       ManyFunctions()
       break;
 
-    case 6:
+    case 0:
       total = 600;
       exercising = 45;
       lot = (total - (usedTime + exercising));
