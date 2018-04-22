@@ -1,0 +1,107 @@
+html{
+  font-family: Verdana;
+}
+p{
+  position:absolute;
+  left:calc(75% - 100px);
+}
+.input{
+  position:absolute;
+  top:calc(50% );
+  left:calc(15%);
+  width:350px
+}
+.extratime{
+  position:absolute;
+  top:-30px;
+  left:-65px;
+  height:30px;
+  width:250px;
+  font-size: 20px;
+}
+.homework{
+  position:absolute;
+  top:-120px;
+  left:-65px;
+  height:30px;
+  width:323px;
+  font-size:20px;
+}
+.homeworklabel{
+  position:absolute;
+  top:-145px;
+  left:-65px;
+  font-size: 20px;
+}
+.extratimelabel{
+  position:absolute;
+  top:-55px;
+  left:-65px;
+  font-size: 20px;
+}
+.radiodiv{
+  position:relative;
+  left:-65px;
+}
+label{
+  font-size: 20px
+}
+.radiono,.radioyes{
+  width:25px;
+  height:25px;
+  padding:40px;
+}
+.submit:active{
+  box-shadow: 3px 3px 5px #b5aaaa;
+}
+.getagenda{
+  position:absolute;
+  left:calc(20% - 30px);
+  top:calc(50% - 15px);
+  color:black;
+  font-size:28px;
+  font-weight: bold;
+  font-family: Verdana;
+}
+.submit{
+  position:absolute;
+  bottom:-150%;
+  border-radius:30px;
+  box-shadow: 2px 2px 4px #2e2e2e;
+  background:rgb(143, 31, 31);
+  width:200px;
+  height:60px;
+  cursor:pointer;
+  left:-65px;
+}
+.title{
+  position:absolute;
+  left:calc(50% - 230px);
+  top:25px;
+  font-size:75px;
+  color:maroon;
+  font-weight: bold;
+}
+.resultbox{
+  position:absolute;
+  top:125px;
+  left:calc(100% - 40%);
+  width:40%;
+  height:calc(100% - 125px);
+  background:rgba(0, 0, 0, 0.67);
+  border-radius:20px 0px 0px 0px;
+}
+h4{
+  color:rgb(0, 255, 240);
+  position:absolute;
+  left:calc(50% - 36px);
+  top:15px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+h6{
+  position:absolute;
+  font-size:30px;
+  left:15px;
+  top:20%;
+}
